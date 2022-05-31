@@ -12,8 +12,15 @@
         <span><%= @product.quantity %> in stock at </span>
         <span><%= humanized_money_with_symbol @product.price %></span>
       </div>
+
+      <% is_disabled = false %>
+      <% if @product.quantity < 1 %>
+        <% is_disabled = true %>
+        <button class=soldout> Sold Out</button>
+      <% end %>
+
       <div class="price">          
-        <%= button_to add_item_cart_path(product_id: @product.id), class: 'btn' , method: :post do %>
+        <%= button_to add_item_cart_path(product_id: @product.id), class: 'btn' , disabled: is_disabled, method: :post do %>
           <%= fa_icon "shopping-cart", text: 'Add' %>
         <% end %>          
       </div>
