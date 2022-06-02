@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
 
-
-  
-
   root to: 'products#index'
   get 'about/index' => 'about#index', as: :about
 
@@ -20,6 +17,10 @@ Rails.application.routes.draw do
     root to: 'dashboard#show'
     resources :products, :categories, except: [:edit, :update, :show]
   end
+
+  #routes for signup
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
