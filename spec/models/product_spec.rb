@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Product, type: :model do
   describe 'Validations' do
-    it 'should load product' do
+    it 'should create new product' do
       @product = Product.new(:name => "begonia", :price_cents => 1299, :quantity => 3, :category_id => 2)
       expect(@product).to be_present
     end
