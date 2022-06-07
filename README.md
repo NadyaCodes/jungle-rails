@@ -7,7 +7,15 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 Jungle is an e-commece site that uses Ruby on Rails and Stripe. This was an assignemnt at lighthouse labs where we inherited some code, and then changed and implemented some new features and bug fixes. While I'd love to take credit for the whole thing, this is more of a display of the medium I can work within, as opposed to a project I started from scratch.
 
 ## Images
+!["About Us Page"](https://github.com/NadyaCodes/jungle-rails/blob/0d462c19971dcc229a615f13dc8d58e5756948d3/docs/jungle-about-us.png?raw=true)
 
+!["Admin Categories"](https://github.com/NadyaCodes/jungle-rails/blob/0d462c19971dcc229a615f13dc8d58e5756948d3/docs/jungle-admin-categories.png?raw=true)
+
+!["Homepage"](https://github.com/NadyaCodes/jungle-rails/blob/0d462c19971dcc229a615f13dc8d58e5756948d3/docs/jungle-home.png?raw=true)
+
+!["My Cart"](https://github.com/NadyaCodes/jungle-rails/blob/0d462c19971dcc229a615f13dc8d58e5756948d3/docs/jungle-my-cart.png?raw=true)
+
+!["Products Page"](https://github.com/NadyaCodes/jungle-rails/blob/0d462c19971dcc229a615f13dc8d58e5756948d3/docs/jungle-products.png?raw=true)
 
 
 ## Setup
