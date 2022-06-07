@@ -2,6 +2,14 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## About
+
+Jungle is an e-commece site that uses Ruby on Rails and Stripe. This was an assignemnt at lighthouse labs where we inherited some code, and then changed and implemented some new features and bug fixes. While I'd love to take credit for the whole thing, this is more of a display of the medium I can work within, as opposed to a project I started from scratch.
+
+## Images
+
+
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
